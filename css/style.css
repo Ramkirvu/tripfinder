@@ -1,0 +1,24 @@
+/*
+
+
+синий #006fe6
+голубой #47a0ff
+серый #ebebeb
+белый #ffffff
+
+'Open Sans' 15px regular текст
+'Open Sans' 30px regular заголовок 2
+
+'big_noodle_titling' 50px regular заголовок 1
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@font-face {
+    font-family: big_noodle_titling;
+    src: url("../fonts/big_noodle_titling.eot");
+}
+@font-face {
+    font-family: big_noodle_titling;
+    src: local("big_noodle_titling"), url("../fonts/big_noodle_titling.ttf");
+}
