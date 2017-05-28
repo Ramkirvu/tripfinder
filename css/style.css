@@ -15,7 +15,6 @@
 
 
 /*MAIN SETTINGS*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @font-face {
     font-family: big_noodle_titling;
     src: url("../fonts/big_noodle_titling.eot");
@@ -28,23 +27,48 @@ html, body {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
 }
-span, i,  {
+div .container-left h3 {
+    margin: 2.700em 0 0 0;
+}
+div .container-left p {
+    font-size: 2em;
+    margin: 0;
+}
+h3 {
+    font-size: 4em;
+    font-family: "big_noodle_titling", sans-serif;
+}
+div .container-left span {
+    font-size: 1.333em;
+}
+p {
+    font-family: "Open Sans", serif;
+}
+p, h3, span, i, nav .input-field label i {
     color: #FFFFFF;
 }
+#blue-slogan {
+    color: #007bff;
+}
+.blue-bottom-panel {
+    background-color: #007bff;
+}
 
-
-/*HEADER*/
+    /*HEADER*/
 div.col span {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 13px;
     display: inline;
-    margin: auto auto auto 0px;
+    margin: auto auto auto 0;
     height: inherit;
     line-height: inherit;
 }
 nav ul a {
     font-size: 1.333em;
-    padding-top: 0.733em;
+    padding-top: 0.54em;
+}
+nav ul a:hover {
+    color: #007bff;
 }
 nav i, nav [class^="mdi-"],
 nav [class*="mdi-"],
@@ -52,8 +76,8 @@ nav i.material-icons {
     font-size: 1.500em;
     height: inherit;
     line-height: inherit;
-    margin: 0;
     display: inline;
+    margin: -3px 0 0 0;
 }
 nav {
     line-height: inherit;
@@ -61,7 +85,7 @@ nav {
 }
 .nav {
     background-color: black;
-    opacity: 0.74;
+    opacity: 0.85;
     z-index: 100;
     position: absolute;
 }
@@ -71,7 +95,7 @@ nav {
 #nav-bottom {
     height: 5.333em;
     margin-top: 1.97em;
-    border-top: solid 1px #ebebeb;
+    border-top: solid 1px #FFFFFF;
 }
 .row {
  margin-bottom: 0;
@@ -90,14 +114,15 @@ nav {
     padding-right: 0;
 }
 .input-field {
-    border-left: solid 1px #ebebeb;
+    border-left: solid 1px #FFFFFF;
 }
 .input-field input[type=search] + label {
-    left: 5px;
-    top: 1px;
+    left: 4px;
+    top: -1px;
     width: 1em;
     height: 1em;
-    margin: auto
+    margin: auto;
+    cursor: pointer;
 }
 .input-field input[type=search] {
     padding-left: 1.8em;
@@ -122,27 +147,60 @@ nav {
 .input-field input[type=search]:focus + label i {
     visibility: hidden;
 }
+nav .brand-logo  {
+    font-family: "big_noodle_titling", sans-serif;
+    font-size: 2.667em;
+    bottom: 0.193em;
+}
+
+
 
 
 /*CONTENT*/
 #container_920 {
     height: 61.333em;
-    background-color: #00acc1;
+    background: url("../png/hotel.png") no-repeat 50% #ebebeb;
+    display: grid;
+    align-items: end;
+}
+.blue-bottom-panel {
+    opacity: 0.851;
+    height: 196px;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.container-bottom-left {
+    width: 788px;
+    height: 348px;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#container_700 {
+    height: 46.667em;
+    opacity: 0.29;
+    background: url("../png/lake.png") no-repeat 50% #ebebeb;
 }
 #container_880 {
     height: 58.667em;
-    background-color: #3d5afe;
+    background: url("../png/trees.png") no-repeat 50% #ebebeb;
 }
 #container_1982 {
     height:132.133em;
     background-color: #ebebeb;
 }
-.container_700 {
+#container_700_2{
     height: 46.667em;
-    background-color: #00C853;
+    background: url("../png/village.png") no-repeat 50% #ebebeb;
 }
 footer {
     height: 26.667em;
+    background-color: #FFFFFF;
 }
 
 

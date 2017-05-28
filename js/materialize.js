@@ -1200,7 +1200,7 @@ if (jQuery) {
         }
 
         // Animate image + set z-index
-        if(origin.hasClass('responsive-img')) {
+        if(origin.hasClass('responsive-png')) {
           origin.velocity({'max-width': newWidth, 'width': originalWidth}, {duration: 0, queue: false,
             complete: function(){
               origin.css({left: 0, top: 0})
@@ -1352,12 +1352,12 @@ if (jQuery) {
       function updateParallax(initial) {
         var container_height;
         if (window_width < 601) {
-          container_height = ($this.height() > 0) ? $this.height() : $this.children("img").height();
+          container_height = ($this.height() > 0) ? $this.height() : $this.children("png").height();
         }
         else {
           container_height = ($this.height() > 0) ? $this.height() : 500;
         }
-        var $img = $this.children("img").first();
+        var $img = $this.children("png").first();
         var img_height = $img.height();
         var parallax_dist = img_height - container_height;
         var bottom = $this.offset().top + container_height;
@@ -1378,7 +1378,7 @@ if (jQuery) {
       }
 
       // Wait for image load
-      $this.children("img").one("load", function() {
+      $this.children("png").one("load", function() {
         updateParallax(true);
       }).each(function() {
         if (this.complete) $(this).trigger("load");
@@ -3355,7 +3355,7 @@ if (jQuery) {
 
                     var autocompleteOption = $('<li></li>');
                     if (!!data[key]) {
-                      autocompleteOption.append('<img src="'+ data[key] +'" class="right circle"><span>'+ key +'</span>');
+                      autocompleteOption.append('<png src="'+ data[key] +'" class="right circle"><span>'+ key +'</span>');
                     } else {
                       autocompleteOption.append('<span>'+ key +'</span>');
                     }
@@ -3483,7 +3483,7 @@ if (jQuery) {
           if (!!classes) classString = ' class="' + classes + '"';
 
           // Check for multiple type.
-          options.append($('<li class="' + disabledClass + optgroupClass + '"><img alt="" src="' + icon_url + '"' + classString + '><span>' + multipleCheckbox + option.html() + '</span></li>'));
+          options.append($('<li class="' + disabledClass + optgroupClass + '"><png alt="" src="' + icon_url + '"' + classString + '><span>' + multipleCheckbox + option.html() + '</span></li>'));
           return true;
         }
 
@@ -3847,8 +3847,8 @@ if (jQuery) {
           captionTransition($(this), 0);
         });
 
-        // Move img src into background-image
-        $slides.find('img').each(function () {
+        // Move png src into background-image
+        $slides.find('png').each(function () {
           var placeholderBase64 = 'data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
           if ($(this).attr('src') !== placeholderBase64) {
             $(this).css('background-image', 'url(' + $(this).attr('src') + ')' );
@@ -3903,7 +3903,7 @@ if (jQuery) {
         }
 
         // Adjust height to current slide
-        $active.find('img').each(function() {
+        $active.find('png').each(function() {
           $active.find('.caption').velocity({opacity: 1, translateX: 0, translateY: 0}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
         });
 
@@ -7634,7 +7634,7 @@ Picker.extend( 'pickadate', DatePicker )
 
         // Options
         var setCarouselHeight = function() {
-          var firstImage = view.find('.carousel-item img').first();
+          var firstImage = view.find('.carousel-item png').first();
           if (firstImage.length) {
             if (firstImage.prop('complete')) {
               view.css('height', firstImage.height());
