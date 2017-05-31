@@ -236,10 +236,14 @@ div.l12.height-60 {
 div.l12.height-70 {
     padding-top: 70px;
 }
+div.card-content > h4 {
+    padding-top: 10%;
+}
 
 /* margin */
-.no-mar {
-    margin: 0;
+.no-mar,
+div.card-content > h4 {
+    margin: 0 !important;
 }
 .no-mar-bot {
     margin-bottom: 0;
@@ -250,9 +254,10 @@ div.l12.height-70 {
 
 /* height in % */
 .height-110 {
-    height: 110%;
+    height: 110% !important;
 }
 
+.card-image > img,
 .height-100,
 .row,
 div .col .l3,
@@ -317,13 +322,26 @@ footer div:last-child {
     opacity: 0.9;
 }
 
-.card {
-    width: 165%;
+.btn {
+    width: 70%;
+    height: 19%;
+    margin: 0 auto 0 auto;
 }
+.btn > a {
+    line-height: 58px;
+}
+
+.card {
+    width: 100%;
+}
+
 .card-content {
     display: inline-flex;
-    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:  0 5px 0 5px;
 }
+
 /* background's' */
 header {
     background: url("../png/hotel.png") no-repeat 100%;
@@ -356,6 +374,7 @@ header {
 .cir-bg-4 {
     background: url("../png/amazon.jpg") center 100%;
     background-size: cover;
+    height: 100%;
 }
 .cir {
     width: 7.5em;
@@ -371,14 +390,6 @@ header {
         font-size: 2em;
     }
 }
-/*@media only screen and (max-width: 1780px) {*/
-   /*div.l12.push-l2 {*/
-   /*}*/
-   /*div.l3.push-l3 {*/
-
-       /*text-align: center;*/
-   /*}*/
-/*}*/
 
 /*FOOTER
       ==========================================================================*/

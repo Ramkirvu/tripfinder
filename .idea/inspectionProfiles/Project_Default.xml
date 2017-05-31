@@ -349,7 +349,10 @@
     <inspection_tool class="VoidExpressionJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="W3CssValidation" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <scope name="Tests" level="WARNING" enabled="true" />
-      <scope name="Project Files" level="TYPO" enabled="true" />
+      <scope name="Project Files" level="TYPO" enabled="true">
+        <option name="myCssVersion" value="css3" />
+        <option name="myIgnoreVendorSpecificProperties" value="false" />
+      </scope>
     </inspection_tool>
     <inspection_tool class="WebpackConfigHighlighting" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="WithStatementJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
