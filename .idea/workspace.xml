@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be6ce83a-bbc0-4705-9d43-f455fbeb236e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -40,15 +41,18 @@
     <favorites_list name="tripfinder" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5629575">
+    <splitter split-orientation="horizontal" split-proportion="0.56881404">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="121" column="52" lean-forward="true" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
-                  <folding />
+                <state relative-caret-position="357">
+                  <caret line="206" column="62" lean-forward="true" selection-start-line="206" selection-start-column="62" selection-end-line="206" selection-end-column="62" />
+                  <folding>
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -60,8 +64,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="397" column="12" lean-forward="true" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
+                <state relative-caret-position="127">
+                  <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +74,8 @@
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/materialize.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="43335">
-                  <caret line="2889" column="21" lean-forward="false" selection-start-line="2889" selection-start-column="21" selection-end-line="2889" selection-end-column="21" />
+                <state relative-caret-position="357">
+                  <caret line="2530" column="24" lean-forward="true" selection-start-line="2530" selection-start-column="24" selection-end-line="2530" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -92,22 +96,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>min-width:</find>
-      <find>.flow</find>
-      <find>.flow-text</find>
-      <find>circle</find>
-      <find>height-2-l</find>
-      <find>height-2-s</find>
-      <find>height-3-m</find>
-      <find>height-3-l</find>
-      <find>height</find>
       <find>min-width</find>
       <find>@media only screen and (min-width: 601px)</find>
       <find>@media only screen</find>
       <find>car</find>
       <find>h3</find>
       <find>c</find>
-      <find>h4</find>
       <find>.card-action</find>
       <find>gre</find>
       <find>background</find>
@@ -118,10 +112,20 @@
       <find>.b</find>
       <find>.btn-large</find>
       <find>.btn</find>
-      <find>card</find>
       <find>pare</find>
       <find>lt-bl</find>
+      <find>h4</find>
+      <find>no-m</find>
+      <find>div.l12</find>
       <find>.card</find>
+      <find>card</find>
+      <find>l4</find>
+      <find>inline</find>
+      <find>mar-t</find>
+      <find>card-n</find>
+      <find>r</find>
+      <find>row</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,11 +147,11 @@
         <option value="$PROJECT_DIR$/css/social_icons_from_Techandallcom.css" />
         <option value="$PROJECT_DIR$/index_new.html" />
         <option value="$PROJECT_DIR$/css/style_new.css" />
-        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/123.html" />
         <option value="$PROJECT_DIR$/12.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -322,14 +326,14 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/png" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/png" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,7 +497,7 @@
       <workItem from="1496262387024" duration="4759000" />
       <workItem from="1496503913594" duration="2659000" />
       <workItem from="1496622234361" duration="2182000" />
-      <workItem from="1496624967113" duration="1351000" />
+      <workItem from="1496624967113" duration="19825000" />
     </task>
     <task id="LOCAL-00001" summary="backup">
       <created>1496623711175</created>
@@ -502,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496623711175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="backup2">
+      <created>1496626571799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496626571799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176616000" />
+    <option name="totallyTimeSpent" value="195090000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -580,7 +591,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup" />
+    <MESSAGE value="backup2" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -588,13 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,24 +807,32 @@
     <entry file="file://$PROJECT_DIR$/12.html" />
     <entry file="file://$PROJECT_DIR$/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43335">
-          <caret line="2889" column="21" lean-forward="false" selection-start-line="2889" selection-start-column="21" selection-end-line="2889" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="2530" column="24" lean-forward="true" selection-start-line="2530" selection-start-column="24" selection-end-line="2530" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/png/card_n3.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="121" column="52" lean-forward="true" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="206" column="62" lean-forward="true" selection-start-line="206" selection-start-column="62" selection-end-line="206" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="397" column="12" lean-forward="true" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
+        <state relative-caret-position="127">
+          <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
           <folding />
         </state>
       </provider>

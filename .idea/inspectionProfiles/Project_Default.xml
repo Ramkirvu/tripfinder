@@ -318,7 +318,7 @@
       <option name="m_limit" value="30" />
     </inspection_tool>
     <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="Stylelint" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <inspection_tool class="Stylelint" enabled="false" level="WEAK WARNING" enabled_by_default="true">
       <scope name="Tests" level="ERROR" enabled="true" />
       <scope name="Project Files" level="TYPO" enabled="true" />
     </inspection_tool>
