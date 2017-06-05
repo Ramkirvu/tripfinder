@@ -173,6 +173,7 @@ h3 {
 h4 {
     font-size: 50px;
 }
+.font-30,
 h5 {
     font-size: 30px;
     font-weight: 200;
@@ -180,6 +181,10 @@ h5 {
 }
 p, span, nav {
     font-size: 1.333em;
+}
+.font-40 {
+    font-size: 40px;
+    font-weight: 40px;
 }
 
 /*COLOR'S
@@ -236,11 +241,14 @@ div.l12.height-60 {
 div.l12.height-70 {
     padding-top: 70px;
 }
-div.card-content > h4 {
-    padding-top: 10%;
+div.card-content > h4.grey-txt {
+    padding-top: 0.8em;
 }
-
+div.card-content > p {
+    padding: 0.7em 0 0.7em 0;
+}
 /* margin */
+
 .no-mar,
 div.card-content > h4 {
     margin: 0 !important;
@@ -257,7 +265,6 @@ div.card-content > h4 {
     height: 110% !important;
 }
 
-.card-image > img,
 .height-100,
 .row,
 div .col .l3,
@@ -325,14 +332,15 @@ footer div:last-child {
 .btn {
     width: 70%;
     height: 19%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 40px auto;
 }
+
 .btn > a {
     line-height: 58px;
 }
 
 .card {
-    width: 100%;
+    width: 91%;
 }
 
 .card-content {
@@ -340,6 +348,13 @@ footer div:last-child {
     justify-content: space-around;
     flex-direction: column;
     margin:  0 5px 0 5px;
+}
+
+.card-sale {
+    height: 55px;
+    width: 170px;
+    margin: -2em auto 0 auto;
+
 }
 
 /* background's' */
@@ -376,6 +391,10 @@ header {
     background-size: cover;
     height: 100%;
 }
+.card-bg {
+    background: url("../png/amazon.jpg");
+    background-size: cover;
+}
 .cir {
     width: 7.5em;
     height: 7.5em;
@@ -385,11 +404,13 @@ header {
     line-height: 7.5em;
     text-align: center;
 }
+
 @media only screen and (max-width: 1680px) {
     .cir {
         font-size: 2em;
     }
 }
+
 
 /*FOOTER
       ==========================================================================*/
