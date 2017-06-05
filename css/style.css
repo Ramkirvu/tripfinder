@@ -391,8 +391,16 @@ header {
     background-size: cover;
     height: 100%;
 }
-.card-bg {
-    background: url("../png/amazon.jpg");
+.card-bg-1 {
+    background: url("../png/card1.jpg");
+    background-size: cover;
+}
+.card-bg-2 {
+    background: url("../png/card2.jpg");
+    background-size: cover;
+}
+.card-bg-3 {
+    background: url("../png/card3.jpg");
     background-size: cover;
 }
 .cir {
