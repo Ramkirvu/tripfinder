@@ -272,11 +272,18 @@ div.card-content > h4, .no-mar {
 .mar-top {
  margin: 1.8em auto 0 auto;
 }
+div.height-10.flex > h4.mar-aut_rl {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.7em !important;
+}
 .mar-bot {
     margin: 0 0 1.8em 0;
 }
 div.height-20.flex > span.mar-aut {
     margin: 2.5em auto 2.5em auto;
+}
+.mar-aut_rl {
+    margin: 0 auto 0 auto;
 }
 
 /* height in % */
@@ -293,6 +300,9 @@ div .col .l3 {
 }
 .height-70 {
     height: 70%;
+}
+.height-65 {
+    height: 65%;
 }
 .height-60 {
     height: 60%;
@@ -353,11 +363,14 @@ footer div:last-child {
 .flex {
     display: flex;
 }
+.flex-jc {
+    justify-content: center;
+}
 .flex-c {
     flex-direction: column;
 }
-.flex-sp-bet {
-    justify-content: space-between;
+div.flex > div.height-30.mar-aut_rl {
+    align-self: flex-end;
 }
 
 /*CONTENT
@@ -386,9 +399,6 @@ a {
     flex-direction: column;
     margin:  0 5px 0 5px;
 }
-/*.card-content-news {*/
-/*margin-left: 6em;*/
-/*}*/
 
 .card-sale {
     height: 55px;
@@ -473,6 +483,15 @@ header {
     font-size: 2.5em;
     letter-spacing: 0.15em;
     line-height: 7.5em;
+    text-align: center;
+}
+.cir-footer {
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 50%;
+    font-size: 1.2em;
+    letter-spacing: 0.14em;
+    line-height: 10.5em;
     text-align: center;
 }
 
