@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be6ce83a-bbc0-4705-9d43-f455fbeb236e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -40,14 +39,14 @@
     <favorites_list name="tripfinder" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41215226">
+    <splitter split-orientation="horizontal" split-proportion="0.5556369">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="390" column="89" lean-forward="false" selection-start-line="390" selection-start-column="89" selection-end-line="390" selection-end-column="89" />
+                <state relative-caret-position="332">
+                  <caret line="92" column="80" lean-forward="true" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +69,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="618" column="8" lean-forward="true" selection-start-line="618" selection-start-column="8" selection-end-line="618" selection-end-column="8" />
+                <state relative-caret-position="472">
+                  <caret line="623" column="25" lean-forward="true" selection-start-line="623" selection-start-column="25" selection-end-line="623" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -157,8 +156,8 @@
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/css/materialize.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -519,7 +518,7 @@
       <workItem from="1496503913594" duration="2659000" />
       <workItem from="1496622234361" duration="2182000" />
       <workItem from="1496624967113" duration="23660000" />
-      <workItem from="1496699395910" duration="47131000" />
+      <workItem from="1496699395910" duration="48329000" />
     </task>
     <task id="LOCAL-00001" summary="backup">
       <created>1496623711175</created>
@@ -570,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496740437179</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="backup">
+      <created>1496757234607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496757234607</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246056000" />
+    <option name="totallyTimeSpent" value="247254000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -878,16 +884,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="390" column="89" lean-forward="false" selection-start-line="390" selection-start-column="89" selection-end-line="390" selection-end-column="89" />
+        <state relative-caret-position="332">
+          <caret line="92" column="80" lean-forward="true" selection-start-line="92" selection-start-column="80" selection-end-line="92" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="618" column="8" lean-forward="true" selection-start-line="618" selection-start-column="8" selection-end-line="618" selection-end-column="8" />
+        <state relative-caret-position="472">
+          <caret line="623" column="25" lean-forward="true" selection-start-line="623" selection-start-column="25" selection-end-line="623" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -21,7 +21,7 @@
     .icon-link.round-corner {
         border-radius: 1px;
     }
-.icon-link:hover.google-plus,
+.icon-link:r.google-plus,
 .icon-link:hover.youtube,
 .icon-link:hover.facebook,
 .icon-link:hover.tumblr,
@@ -602,19 +602,22 @@ div.carousel-fixed-item > a.btn {
         margin-top: 0;
         margin-bottom: 0;
     }
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 64px;
-        line-height: 64px;
-        width: 64px;
-        font-size: 50px;
-        margin: 2px auto auto 20px;
-    }
-    #mobile-demo {
-
-    }
-    #sidenav-overlay {
-
-    }
+    /*nav a.button-collapse, nav a.button-collapse i {*/
+        /*height: 64px;*/
+        /*line-height: 64px;*/
+        /*width: 64px;*/
+        /*position: fixed;*/
+    /*}*/
+    /*nav a.button-collapse {*/
+        /*margin: 0;*/
+    /*}*/
+    /*#mobile-demo {*/
+         /*width: 192px;*/
+    /*}*/
+    /*#sidenav-overlay {*/
+        /*background-color: ;*/
+        /*opacity: 0;*/
+    /*}*/
 
 }
 
