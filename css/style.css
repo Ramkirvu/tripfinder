@@ -95,6 +95,9 @@ h5 {
     font-weight: 200;
     letter-spacing: 1px;
 }
+nav ul a {
+    font-size: 2rem;
+}
 p, span, nav {
     font-size: 1.333em;
 }
@@ -124,6 +127,10 @@ p, span, nav {
 .lt-blue {
     background-color: #6a9ffc;
 }
+.fixed-action-btn,
+.btn:hover, .btn-large:hover, .btn-floating:hover,
+.btn:active, .btn-large:active, .btn-floating:active,
+.btn:focus, .btn-large:focus, .btn-floating:focus,
 .br-blue {
     background-color: #42a5f5;
 }
@@ -132,9 +139,6 @@ p, span, nav {
 }
 .navy {
     background-color: #006fe6;
-}
-.dk-grey {
-    background-color: #f2f2f2;
 }
 
 /* text color */
@@ -151,6 +155,7 @@ p, span, nav {
 .dk-grey-txt {
     color: #353535;
 }
+li > a:hover, li > a:focus, li > a:active,
 .blue-txt {
     color: #457afb;
 }
@@ -178,10 +183,12 @@ div.input-field > label,
 div.input-field > input {
     padding-top: 5px;
 }
+div.mar-aut_rl > h4.dk-grey-txtr,
 div.height-50 > p.blue-txt,
 div.l12.height-60 {
     padding-top: 1em;
 }
+div.col.l4 > .carousel,
 div.height-50 > div.flex-sp-bet,
 div.card-content > h4.grey-txt {
     padding-top: 0.8em;
@@ -209,12 +216,17 @@ div.card-content > h4, .no-mar {
 .mar-aut_tb {
     margin: auto 0 auto 0;
 }
-
+.mar-top-aut {
+    margin-top: auto;
+}
+.mar-bot-aut {
+    margin-bottom: auto;
+}
 .mar-top {
- margin: 1.8em auto 0 auto;
+ margin: 1.5em auto 0 auto;
 }
 div.l7.flex > span {
-    margin: auto 2.8em auto 0.5em;
+    margin: 0 5em 0 0.5em;
 }
 div.height-10.flex > h4.mar-aut_rl {
     margin-top: 0.3em !important;
@@ -248,6 +260,7 @@ div .col .l3 {
 .height-60 {
     height: 60%;
 }
+div.row.height-70.width-100 > div.l4,
 .height-50 {
     height: 50%;
 }
@@ -296,10 +309,9 @@ footer div:last-child {
     height: 15%;
 }
 
-.width-100 {
-    width: 100%;
+form.row.flex > div.l11 {
+    height: 3.5em;
 }
-
 /* position */
 .flex {
     display: flex;
@@ -337,12 +349,32 @@ div.input-field > input {
     border-bottom: none;
 }
 
+.search-card {
+    width: 40% !important;
+    height: 96% !important;
+    position: relative;
+    z-index: 100;
+    top: 5.5em;
+}
+option {
+    width: 426px;
+    height: 55px;
+}
+
 a {
     cursor: pointer;
 }
 
 .opacity {
     opacity: 0.9;
+}
+
+
+.input-field {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 3.5em;
+    width: 100%;
 }
 
 .btn {
@@ -445,6 +477,78 @@ header {
     background: url("../png/card_n2.jpg");
     background-size: cover;
 }
+.carousel-bg-1 {
+    background: url("../png/orlando1.jpg");
+    background-size: cover;
+}
+.carousel-bg-2 {
+    background: url("../png/orlando2.jpg");
+    background-size: cover;
+}
+.carousel-bg-3 {
+    background: url("../png/orlando3.jpg");
+    background-size: cover;
+}
+.carousel-bg-4 {
+    background: url("../png/ny1.jpg");
+    background-size: cover;
+}
+.carousel-bg-5 {
+    background: url("../png/ny2.jpg");
+    background-size: cover;
+}
+.carousel-bg-6 {
+    background: url("../png/ny3.jpg");
+    background-size: cover;
+}
+.carousel-bg-7 {
+    background: url("../png/hh1.jpg");
+    background-size: cover;
+}
+.carousel-bg-8 {
+    background: url("../png/hh2.jpg");
+    background-size: cover;
+}
+.carousel-bg-9 {
+    background: url("../png/hh3.jpeg");
+    background-size: cover;
+}
+.carousel-bg-10 {
+    background: url("../png/pr1.jpg");
+    background-size: cover;
+}
+.carousel-bg-11 {
+    background: url("../png/pr2.jpg");
+    background-size: cover;
+}
+.carousel-bg-12 {
+    background: url("../png/pr3.jpg");
+    background-size: cover;
+}
+.carousel-bg-13 {
+    background: url("../png/nz1.jpeg");
+    background-size: cover;
+}
+.carousel-bg-14 {
+    background: url("../png/nz2.jpeg");
+    background-size: cover;
+}
+.carousel-bg-15 {
+    background: url("../png/nz3.jpg");
+    background-size: cover;
+}
+.carousel-bg-16 {
+    background: url("../png/rus1.jpeg");
+    background-size: cover;
+}
+.carousel-bg-17 {
+    background: url("../png/rus2.jpeg");
+    background-size: cover;
+}
+.carousel-bg-18 {
+    background: url("../png/rus3.jpeg");
+    background-size: cover;
+}
 .cir {
     width: 7.5em;
     height: 7.5em;
@@ -463,6 +567,10 @@ header {
     line-height: 10.5em;
     text-align: center;
 }
+div.carousel-fixed-item > a.btn {
+    width: 10.8em;
+}
+
 
 @media only screen and (max-width: 1680px) {
     .cir {
@@ -481,4 +589,9 @@ header {
       ==========================================================================*/
 
 
+
+
+.width-100 {
+    width: 100%;
+}
 

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be6ce83a-bbc0-4705-9d43-f455fbeb236e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jscs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,14 +43,24 @@
     <favorites_list name="tripfinder" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56881404">
+    <splitter split-orientation="horizontal" split-proportion="0.5739385">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="569">
-                  <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+                <state relative-caret-position="-1052">
+                  <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/init.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +73,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="193" column="32" lean-forward="true" selection-start-line="193" selection-start-column="32" selection-end-line="193" selection-end-column="32" />
+                <state relative-caret-position="166">
+                  <caret line="366" column="31" lean-forward="true" selection-start-line="366" selection-start-column="31" selection-end-line="366" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +83,8 @@
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/materialize.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-630">
-                  <caret line="2057" column="5" lean-forward="true" selection-start-line="2057" selection-start-column="5" selection-end-line="2057" selection-end-column="5" />
+                <state relative-caret-position="230">
+                  <caret line="3736" column="5" lean-forward="false" selection-start-line="3736" selection-start-column="0" selection-end-line="3736" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -92,15 +105,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ama</find>
-      <find>marku</find>
-      <find>.b</find>
-      <find>.btn-large</find>
-      <find>.btn</find>
-      <find>pare</find>
       <find>lt-bl</find>
       <find>h4</find>
-      <find>no-m</find>
       <find>div.l12</find>
       <find>.card</find>
       <find>card</find>
@@ -122,6 +128,13 @@
       <find>lo</find>
       <find>logo</find>
       <find>bold</find>
+      <find>flex</find>
+      <find>no-m</find>
+      <find>sear</find>
+      <find>wid</find>
+      <find>btn</find>
+      <find>mar</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,8 +158,9 @@
         <option value="$PROJECT_DIR$/css/style_new.css" />
         <option value="$PROJECT_DIR$/123.html" />
         <option value="$PROJECT_DIR$/12.html" />
-        <option value="$PROJECT_DIR$/css/materialize.css" />
+        <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -243,7 +257,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers ProjectPane="true" />
       <showModules />
@@ -256,10 +270,69 @@
       <manualOrder />
       <foldersAlwaysOnTop value="false" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="png" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tripfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
@@ -291,14 +364,14 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/png" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -463,7 +536,7 @@
       <workItem from="1496503913594" duration="2659000" />
       <workItem from="1496622234361" duration="2182000" />
       <workItem from="1496624967113" duration="23660000" />
-      <workItem from="1496699395910" duration="10246000" />
+      <workItem from="1496699395910" duration="28540000" />
     </task>
     <task id="LOCAL-00001" summary="backup">
       <created>1496623711175</created>
@@ -493,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496651248143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backup">
+      <created>1496711513866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496711513866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209171000" />
+    <option name="totallyTimeSpent" value="227465000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -570,11 +650,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backup" />
     <MESSAGE value="backup2" />
     <MESSAGE value="backup3" />
     <MESSAGE value="last page done" />
-    <option name="LAST_COMMIT_MESSAGE" value="last page done" />
+    <MESSAGE value="backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -582,20 +662,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6061">
-          <caret line="319" column="5" lean-forward="false" selection-start-line="319" selection-start-column="5" selection-end-line="319" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -792,26 +858,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/png/pr1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="2057" column="5" lean-forward="true" selection-start-line="2057" selection-start-column="5" selection-end-line="2057" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="3736" column="5" lean-forward="false" selection-start-line="3736" selection-start-column="0" selection-end-line="3736" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="193" column="32" lean-forward="true" selection-start-line="193" selection-start-column="32" selection-end-line="193" selection-end-column="32" />
+        <state relative-caret-position="166">
+          <caret line="366" column="31" lean-forward="true" selection-start-line="366" selection-start-column="31" selection-end-line="366" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="-1052">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
