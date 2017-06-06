@@ -55,6 +55,13 @@
     .icon-block .material-icons {
         font-size: inherit;
     }
+    .icon-link_bot {
+        background-color: #00aced ;
+        color: #00aced;
+        width: 1.8em;
+        height: 1.8em;
+        line-height: 1.8em;
+    }
 
 /*FONTS
      ==========================================================================*/
@@ -97,6 +104,7 @@ h5 {
 }
 nav ul a {
     font-size: 2rem;
+    font-weight: lighter;
 }
 p, span, nav {
     font-size: 1.333em;
@@ -120,15 +128,16 @@ p, span, nav {
 .white {
     background-color: #FFFFFF;
 }
-#send-mail,
-.bg-grey,
+.dk-grey {
+    background-color: #5f5f5f;
+}
 .grey {
     background-color: #ebebeb;
 }
 .lt-blue {
     background-color: #6a9ffc;
 }
-.fixed-action-btn,
+.fixed-action-btn, .btn-flat:hover, .btn-flat:active,
 .btn:hover, .btn-large:hover, .btn-floating:hover,
 .btn:active, .btn-large:active, .btn-floating:active,
 .btn:focus, .btn-large:focus, .btn-floating:focus,
@@ -230,6 +239,9 @@ div.footer-links > a {
     margin: 0 0.5em 0 0;
     padding: 0;
 }
+div.l12.height-50 > p.dk-grey-txt{
+    margin: auto 2.3em 0 0;
+}
 div.l7.flex > span {
     margin: 0 5em 0 0.5em;
 }
@@ -240,6 +252,7 @@ div.height-10.flex > h4.mar-aut_rl {
 .mar-bot {
     margin: 0 0 1.8em 0;
 }
+footer > div.container.row,
 div.height-20.flex > span.mar-aut {
     margin: 2.5em auto 2.5em auto;
 }
@@ -307,15 +320,20 @@ div.height-xl > div.container,
 footer {
     height: 400px;
 }
-footer div:first-child {
-    height: 85%;
-}
+/*footer div:first-child {*/
+    /*height: 85%;*/
+/*}*/
 footer div:last-child {
     height: 15%;
 }
-
-form.row.flex > div.l11 {
-    height: 3.5em;
+.height-300 {
+    height: 350px !important;
+}
+.height_50 {
+    height: 50px;
+}
+.width__185 {
+    width: 185px;
 }
 /* position */
 .flex {
@@ -331,11 +349,15 @@ div.flex > div.height-30.mar-aut_rl {
     align-self: flex-end;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 /*CONTENT
       ==========================================================================*/
 
 
-ul#nav-mobile > li {
+ul.hide-on-med-and-down > li {
     padding: 0 1.2em 0 1.2em;
 }
 
@@ -371,14 +393,6 @@ a {
 
 .opacity {
     opacity: 0.9;
-}
-
-
-.input-field {
-    border: 1px solid;
-    border-radius: 5px;
-    height: 3.5em;
-    width: 100%;
 }
 
 .btn {
@@ -588,16 +602,27 @@ div.carousel-fixed-item > a.btn {
         margin-top: 0;
         margin-bottom: 0;
     }
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 64px;
+        line-height: 64px;
+        width: 64px;
+        font-size: 50px;
+        margin: 2px auto auto 20px;
+    }
+    #mobile-demo {
+
+    }
+    #sidenav-overlay {
+
+    }
+
 }
 
 
-/*FOOTER
-      ==========================================================================*/
-#sidenav-overlay
 
 
 
-.width-100 {
-    width: 100%;
-}
+
+
+
 
