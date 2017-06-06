@@ -14,67 +14,6 @@
         padding: 0.07em;
         box-sizing: content-box;
     }
-    .icon-link.fill.facebook {
-        background-color: #3b5998;
-    }
-    .icon-link.fill.facebook:hover {
-        background-color: #fff;
-    }
-    .icon-link.fill.facebook:hover .fa-facebook {
-        color: #3b5998;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link.fill.tumblr {
-        background-color: #32506d;
-    }
-    .icon-link.fill.tumblr:hover {
-        background-color: #fff;
-    }
-    .icon-link.fill.tumblr:hover .fa-tumblr {
-        color: #32506d;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link.fill.twitter {
-        background-color: #00aced;
-    }
-    .icon-link.fill.twitter:hover {
-        background-color: #fff;
-    }
-    .icon-link.fill.twitter:hover .fa-twitter {
-        color: #00aced;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link.fill.google-plus {
-        background-color: #dd4b39;
-    }
-    .icon-link.fill.google-plus:hover {
-        background-color: #fff;
-    }
-    .icon-link.fill.google-plus:hover .fa-google-plus {
-        color: #dd4b39;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link.fill.youtube {
-        background-color: #df1c31;
-    }
-    .icon-link.fill.youtube:hover {
-        background-color: #fff;
-    }
-    .icon-link.fill.youtube:hover .fa-youtube {
-        color: #df1c31;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link.brand {
-        background-color: #fff;
-    }
-    .icon-link.brand .fa {
-        color: #006FC2;
-    }
     .icon-link.round {
         border-radius: 50%;
         border: solid 1px;
@@ -82,49 +21,25 @@
     .icon-link.round-corner {
         border-radius: 1px;
     }
-    .icon-link:hover.facebook {
-        border: 1px solid #3b5998;
-    }
-    .icon-link:hover.twitter {
+.icon-link:hover.google-plus,
+.icon-link:hover.youtube,
+.icon-link:hover.facebook,
+.icon-link:hover.tumblr,
+.icon-link:hover.twitter {
         border: 1px solid #00aced;
-    }
-    .icon-link:hover.google-plus {
-        border: 1px solid #dd4b39;
-    }
-    .icon-link:hover.youtube {
-        border: 1px solid #df1c31;
-    }
-    .icon-link:hover.tumblr {
-        border: 1px solid #32506d;
     }
     .icon-link:hover .fa {
         line-height: 1.3em;
     }
-    .icon-link:hover .fa-facebook {
-        color: #3b5998;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link:hover .fa-tumblr {
-        color: #32506d;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link:hover .fa-twitter {
+.icon-link:hover .fa-facebook,
+.icon-link:hover .fa-tumblr,
+.icon-link:hover .fa-google-plus,
+.icon-link:hover .fa-youtube,
+.icon-link:hover .fa-twitter {
         color: #00aced;
         -webkit-transition: color 150ms ease-in-out;
         transition: color 150ms ease-in-out;
-    }
-    .icon-link:hover .fa-google-plus {
-        color: #dd4b39;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
-    .icon-link:hover .fa-youtube {
-        color: #df1c31;
-        -webkit-transition: color 150ms ease-in-out;
-        transition: color 150ms ease-in-out;
-    }
+}
     .icon-link .fa {
         color: #fff;
         line-height: 0.8em;
@@ -155,7 +70,8 @@
 body, h5 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
-h1, h2, h3, h4, .cir {
+
+span.font-40, h1, h2, h3, h4, .cir {
     font-family: 'BigNoodleTitling', sans-serif;
     font-weight: 200;
     line-height: 1.1;
@@ -225,6 +141,7 @@ p, span, nav {
 .black-txt {
     color: #000000;
 }
+.material-icons,
 .white-txt {
     color: #FFFFFF;
 }
@@ -240,10 +157,27 @@ p, span, nav {
 .br-blue-txt {
     color: #42a5f5;
 }
+div.black.opacity > div.height-30 {
+    border-bottom: 1px solid #5f5f5f;
+}
+div.row.height-30 > div.col.l3.flex-jc {
+    border-right: 1px solid #5f5f5f;
+}
 /*MARKUP
       ==========================================================================*/
 
 /* padding */
+.input-field input[type=search]:focus {
+    background-color: inherit;
+    color: #42a5f5;
+}
+
+
+.input-field input[type=search]:focus,
+div.input-field > label,
+div.input-field > input {
+    padding-top: 5px;
+}
 div.height-50 > p.blue-txt,
 div.l12.height-60 {
     padding-top: 1em;
@@ -269,8 +203,18 @@ div.card-content > h4, .no-mar {
 .mar-aut {
     margin: auto;
 }
+.mar-aut_rl {
+    margin: 0 auto 0 auto;
+}
+.mar-aut_tb {
+    margin: auto 0 auto 0;
+}
+
 .mar-top {
  margin: 1.8em auto 0 auto;
+}
+div.l7.flex > span {
+    margin: auto 2.8em auto 0.5em;
 }
 div.height-10.flex > h4.mar-aut_rl {
     margin-top: 0.3em !important;
@@ -281,9 +225,6 @@ div.height-10.flex > h4.mar-aut_rl {
 }
 div.height-20.flex > span.mar-aut {
     margin: 2.5em auto 2.5em auto;
-}
-.mar-aut_rl {
-    margin: 0 auto 0 auto;
 }
 
 /* height in % */
@@ -375,6 +316,27 @@ div.flex > div.height-30.mar-aut_rl {
 
 /*CONTENT
       ==========================================================================*/
+
+
+ul#nav-mobile > li {
+    padding: 0 1.2em 0 1.2em;
+}
+
+.input-field input[type=search] {
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.input-field label {
+    top: 0;
+}
+
+form > div.input-field,
+div.input-field > input {
+    height: 1.67em;
+    border-bottom: none;
+}
+
 a {
     cursor: pointer;
 }
@@ -447,6 +409,13 @@ header {
     background: url("../png/san_francisco.jpg") no-repeat 50%;
     background-size: cover;
 }
+.logo {
+    background: url("../png/logo.png");
+    background-size: cover;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 0.5em;
+}
 .cir-bg-4 {
     background: url("../png/amazon.jpg") center 100%;
     background-size: cover;
@@ -498,6 +467,12 @@ header {
 @media only screen and (max-width: 1680px) {
     .cir {
         font-size: 2em;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1445px) {
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
