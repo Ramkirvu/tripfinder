@@ -120,6 +120,7 @@ p, span, nav {
 .white {
     background-color: #FFFFFF;
 }
+#send-mail,
 .bg-grey,
 .grey {
     background-color: #ebebeb;
@@ -224,6 +225,10 @@ div.card-content > h4, .no-mar {
 }
 .mar-top {
  margin: 1.5em auto 0 auto;
+}
+div.footer-links > a {
+    margin: 0 0.5em 0 0;
+    padding: 0;
 }
 div.l7.flex > span {
     margin: 0 5em 0 0.5em;
@@ -342,7 +347,6 @@ ul#nav-mobile > li {
 .input-field label {
     top: 0;
 }
-
 form > div.input-field,
 div.input-field > input {
     height: 1.67em;
@@ -381,6 +385,8 @@ a {
     width: 70%;
     height: 19%;
     margin: 0 auto 40px auto;
+    z-index: 400;
+    position: relative;
 }
 
 .btn > a {
@@ -587,7 +593,7 @@ div.carousel-fixed-item > a.btn {
 
 /*FOOTER
       ==========================================================================*/
-
+#sidenav-overlay
 
 
 

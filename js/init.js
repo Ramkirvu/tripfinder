@@ -11,3 +11,11 @@ $(document).ready(function() {
 });
 
 $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+// var options = [
+//     {class: '.cir', offset: 200, callback: customCallbackFunc } },
+//     {selector: '.cir', offset: 200, callback: function() {
+//     customCallbackFunc();
+// } },
+// ];
+// Materialize.scrollFire(options);

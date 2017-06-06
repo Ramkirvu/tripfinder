@@ -52,7 +52,18 @@
       <div class="col l7">
         <nav>
             <div class="nav-wrapper flex flex-jc">
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">home</a></li>
+                    <li><a href="badges.html">blog</a></li>
+                    <li><a href="collapsible.html">gallery</a></li>
+                    <li><a href="sass.html">activities</a></li>
+                    <li><a href="badges.html">deals</a></li>
+                    <li><a href="collapsible.html">contact</a></li>
+                </ul>
+                <!-- MOBILE  -->
+                <ul class="side-nav" id="mobile-demo">
                     <li><a href="sass.html">home</a></li>
                     <li><a href="badges.html">blog</a></li>
                     <li><a href="collapsible.html">gallery</a></li>
@@ -75,23 +86,15 @@
         </h5>
       </div>
 
-        <div class="col l6 white search-card right">
-            <div class="row height-100 flex flex-c">
-
-                <div class="col l11 mar-aut_rl">
-                    <h4 class="dk-grey-txt no-mar">search tours</h4>
-                    <span class="grey-txt">find your dream tour today</span>
-                </div>
+        <div class="col l6 right flex flex-c white search-card">
+            <div class="">
+                <h4 class="dk-grey-txt">search tours</h4>
+                <span class="grey-txt">find your dream tour today</span>
+            </div>
 
 
-
-               <div class="col l11 btn navy width-100 mar-aut_rl">
-                   <a href="#"><span class="bold white-txt center">find tours</span></a>
-              </div>
-
-
-         </div>
-     </div>
+        </div>
+  </div>
 
    <div class="section no-pad height-18 br-blue opacity">
     <div class="row">
@@ -393,7 +396,37 @@
 
 <!--footer-400px-->
 <footer class="no-pad white">
-  <div class="container l12"></div>
+  <div class="container row">
+      <div class="col l4">
+          <h5 class="left">tripfinder lcc</h5>
+          <p class="left font-15">1400 Pennsylvania Ave. Washington,<br> DCP: 24/7 customer support: 1-555-555-5555E: info@tripfinder.com</p>
+      </div>
+      <div class="col l2">
+          <h5 class="">support</h5>
+          <p class="font-15">Faq<br>Payment options<br>Booking tips<br></p>
+      </div>
+      <div class="col l3">
+          <h5 class="">follow us</h5>
+          <div class="footer-links">
+              <a class="icon-link round google-plus"><i class="fa fa-google-plus"></i></a>
+              <a class="icon-link round youtube"><i class="fa fa-youtube"></i></a>
+              <a class="icon-link round tumblr"><i class="fa fa-tumblr"></i></a>
+              <a class="icon-link round twitter"><i class="fa fa-twitter"></i></a>
+              <a class="icon-link round facebook"><i class="fa fa-facebook"></i></a>
+          </div>
+      </div>
+      <div class="col l3">
+          <h5 class="right no-mar">news letter</h5>
+          <form class="">
+              <label class="no-mar no-pad " for="send-mail"></label>
+              <input class="no-mar no-pad " id="send-mail" formmethod="post">
+          </form>
+          <a class="no-mar no-pad btn small navy bold white-txt height-100">submit</a>
+
+
+
+      </div>
+  </div>
   <div class="footer-copyright"></div>
 </footer>
 
