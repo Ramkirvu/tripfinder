@@ -431,9 +431,7 @@ div.flex > div.height-30.mar-aut_rl {
 /*CONTENT
       ==========================================================================*/
 
-ul.hide-on-med-and-down > li {
-    padding: 0 1.2em 0 1.2em;
-}
+
 
 .input-field input[type=search] {
     padding-left: 2rem;
@@ -701,9 +699,15 @@ div.carousel-fixed-item > a.btn {
     width: 10.8em;
 }
 
-@media only screen and (max-width: 1680px) {
+/*MEDIA
+=========================================================================*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
     .cir {
         font-size: 2em;
+    }
+    .col.l5.height-100.flex.flex-jc {
+        width: 20%;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1445px) {
@@ -711,27 +715,55 @@ div.carousel-fixed-item > a.btn {
         margin-top: 0;
         margin-bottom: 0;
     }
-    /*nav a.button-collapse, nav a.button-collapse i {*/
-    /*height: 64px;*/
-    /*line-height: 64px;*/
-    /*width: 64px;*/
-    /*position: fixed;*/
-    /*}*/
-    /*nav a.button-collapse {*/
-    /*margin: 0;*/
-    /*}*/
-    /*#mobile-demo {*/
-    /*width: 192px;*/
-    /*}*/
-    /*#sidenav-overlay {*/
-    /*background-color: ;*/
-    /*opacity: 0;*/
-    /*}*/
-
+    
 }
+@media screen and (min-width: 325px) and (max-width: 1140px) {
+    nav ul a {
+        padding: 0 0.5em 0 0.5em !important;
+    }
+    .mobile-btn {
+        float: right !important;
+        padding-right: 22px !important;
+    }
+    div.row.height-70{
+        display: flex;
+        justify-content: flex-end;
+    }
+    div.col.l5.height-100 {
+        margin: auto;
+    }
+    .mobile-container {
+        display: flex;
+    }
+    .cir {
+        width: 5em;
+        height: 5em;
+        line-height: 2em;
+        font-size: 2em;
+    }
+    .row .col.m2 {
+        width: 100%;
+    }
+    .search-card  {
+        height: 70% !important;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    footer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    div.row.height-300 {
+        justify-content: center;
+        display: flex;
+    }
 
-
-
+    div.col.height-300 > div.row.height-300 {
+        margin: auto;
+    }
+}
 
 
 

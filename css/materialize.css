@@ -1528,7 +1528,6 @@ nav ul a span.badge {
     right: auto;
   }
   .row .col.m4 {
-    width: 33.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto;
@@ -2098,19 +2097,6 @@ nav .nav-wrapper {
   nav a.button-collapse {
     display: none;
   }
-}
-
-nav .button-collapse {
-  float: left;
-  position: relative;
-  z-index: 1;
-  height: 56px;
-  margin: 0 18px;
-}
-
-nav .button-collapse i {
-  height: 56px;
-  line-height: 56px;
 }
 
 nav .brand-logo {
@@ -4864,7 +4850,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 300px;
+  width: 200px;
   left: 0;
   top: 0;
   margin: 0;
@@ -5068,9 +5054,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 997;
-  will-change: opacity;
 }
 
 /*

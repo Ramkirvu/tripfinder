@@ -4,19 +4,16 @@
   <title>Tripfinder</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-
-        rel="stylesheet"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"/>
   <link href="css/materialize.css"  media="screen,projection" rel="stylesheet"/>
   <link href="css/style.css"  media="screen,projection" rel="stylesheet"/>
 </head>
 <body>
-
 <!--header-->
 <header class="no-pad height-l">
- <div class="section no-pad height-12 black opacity">
+ <div class="section no-pad height-12 black opacity z-depth-2">
    <div class="row height-30">
      <div class="col l7 flex flex-jc height-100">
          <i class="material-icons">phone</i>
@@ -33,26 +30,25 @@
          <a class="icon-link round twitter"><i class="fa fa-twitter"></i></a>
          <a class="icon-link round facebook"><i class="fa fa-facebook"></i></a>
      </div>
-     <div class="col l2 height-80">
+     <div class="col l2 height-80 hide-on-med-and-down">
        <form>
            <div class="input-field no-mar">
                <label class="" for="search"><i class="material-icons">search</i></label>
                <input class="no-mar" id="search" type="search" required>
-               <!--<i class=" material-icons">close</i>-->
            </div>
         </form>
      </div>
    </div>
   <div class="row height-70">
      <div class="col l5 height-100 flex flex-jc">
-       <div class="logo mar-aut_tb"></div>
-       <div class=" mar-aut_tb"><span class="white-txt font-40 bold">trip</span><span class="blue-txt
+       <div class="logo mar-aut_tb" id="brand"></div>
+       <div class=" mar-aut_tb" id="brand-name" ><span class="white-txt font-40 bold">trip</span><span class="blue-txt
        font-40 bold">finder</span></div>
      </div>
-      <div class="col l7">
+      <div class="col l7 mobile-btn">
         <nav>
             <div class="nav-wrapper flex flex-jc">
-                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <a href="#" data-activates="mobile-nav" class="button-collapse waves-effect">
                     <i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="sass.html">Home</a></li>
@@ -63,13 +59,13 @@
                     <li><a href="collapsible.html">Contact</a></li>
                 </ul>
                 <!-- MOBILE  -->
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Home</a></li>
-                    <li><a href="badges.html">Blog</a></li>
-                    <li><a href="collapsible.html">Gallery</a></li>
-                    <li><a href="sass.html">activities</a></li>
-                    <li><a href="badges.html">Deals</a></li>
-                    <li><a href="collapsible.html">Contact</a></li>
+                <ul class="side-nav center" id="mobile-nav">
+                    <li><a class="waves-effect" href="sass.html">Home</a></li>
+                    <li><a class="waves-effect" href="badges.html">Blog</a></li>
+                    <li><a class="waves-effect" href="collapsible.html">Gallery</a></li>
+                    <li><a class="waves-effect" href="sass.html">activities</a></li>
+                    <li><a class="waves-effect" href="badges.html">Deals</a></li>
+                    <li><a class="waves-effect" href="collapsible.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -79,23 +75,19 @@
   </div>
   <div class="row container height-70">
       <div class="col m6 l6 height-100 flex flex-c">
-        <h4 class="white-txt no-mar-bot mar-top-aut flow-text">where your journey begins.</h4>
+        <h4 class="white-txt no-mar-bot mar-top-aut">where your journey begins.</h4>
         <h5 class="white-txt  no-mar-top mar-bot-aut flow-text">
           Discover your next great adventure,<br>
           become an explorer to get started!
         </h5>
       </div>
-
         <div class="col l6 right flex flex-c white search-card z-depth-3 hoverable">
             <div class="">
                 <h4 class="dk-grey-txt center">search tours</h4>
                 <!--<span class="grey-txt center">find your dream tour today</span>-->
             </div>
-
-
         </div>
   </div>
-
    <div class="section no-pad height-18 br-blue opacity z-depth-2">
     <div class="row">
       <div class="col no-padding s12 m6 l3 push-l2 push-m3">
@@ -107,19 +99,20 @@
       </div>
     </div>
   </div>
+
 </header>
 
 <!--main content-->
 <!--container-700px-->
-<div class="section height-m no-padding bg-1">
+<div class="section height-m no-padding bg-1 z-depth-2">
   <div class="container height-m">
     <div class="row center">
-      <div class="col l12 height-20">
+      <div class="col s12 l12 height-20">
         <h4 class="grey-txt no-mar-bot">
           Find a Tour by Tour Type
         </h4>
       </div>
-      <div class="col l12 height-20">
+      <div class="col s12 l12 height-20">
         <span class="grey-txt flow-text">
           Egestas dignissim a enim lorem a mus egestas risus porta?
           Sed. Scelerisque,in nec velit augue aenean a,
@@ -127,17 +120,17 @@
         </span>
       </div>
       <div class="col m4 l12 height-60">
-        <div class="row valign-wrapper center-align">
-          <div class="col s12 m2 l3">
+        <div class="row valign-wrapper center-align mobile-container">
+          <div class="col s6 m2 l3">
             <div class="cir cir-bg-1 white white-txt hoverable">North America</div>
           </div>
-          <div class="col s12 m2 l3">
+          <div class="col s6 m2 l3">
             <div class="cir cir-bg-2 white white-txt hoverable">North America</div>
           </div>
-          <div class="col s12 m2 l3">
+          <div class="col s6 m2 l3">
             <div class="cir cir-bg-3 white white-txt hoverable">San Francisco</div>
           </div>
-          <div class="col s12 m2 l3">
+          <div class="col s6 m2 l3">
             <div class="cir cir-bg-4 white white-txt hoverable">Amazon Cruise</div>
           </div>
         </div>
@@ -150,12 +143,12 @@
 <div class="section no-pad height-l bg-2 z-depth-2">
   <div class="container height-l">
     <div class="row">
-      <div class="col l12 height-20 flex">
+      <div class="col s12 m12 l12 height-20 flex">
         <h4 class="white-txt mar-aut">Deals and Discounts</h4>
       </div>
-      <div class="col l12 height-70">
+      <div class="col s12  m12 l12 height-70">
         <div class="row">
-          <div class="col l4 height-100 z-depth-1">
+          <div class="col s4 l4 height-100 z-depth-1">
               <div class="card no height-100 center-align">
                   <div class="card-image height-50 center">
                       <div class="card-bg-1 height-100"></div>
@@ -170,7 +163,7 @@
                   </div>
               </div>
           </div>
-          <div class="col l4 height-100 z-depth-1">
+          <div class="col s4 l4 height-100 z-depth-1">
               <div class="card height-100 center-align">
                   <div class="card-image height-50 center">
                       <div class="card-bg-2 height-100"></div>
@@ -185,7 +178,7 @@
                   </div>
               </div>
           </div>
-          <div class="col l4 height-100 z-depth-1">
+          <div class="col s4 l4 height-100 z-depth-1">
               <div class="card height-100 center-align">
                   <div class="card-image height-50 center">
                       <div class="card-bg-3 height-100"></div>
@@ -211,8 +204,8 @@
         <div class="height-25 flex">
             <h4 class="grey-txt mar-aut">Find a Tour by Beautiful Trips</h4>
         </div>
-    <div class="row height-80 width-100">
-        <div class="col l4 z-depth-1 no-mar-top">
+    <div class="row height-80 width-100 ">
+        <div class="col s4 l4 z-depth-1 no-mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -227,7 +220,7 @@
                 </div>
             </div>
         </div>
-        <div class="col l4 z-depth-1 no-mar-top">
+        <div class="col s4 l4 z-depth-1 no-mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -242,7 +235,7 @@
                 </div>
             </div>
         </div>
-        <div class="col l4 z-depth-1 no-mar-top">
+        <div class="col s4 l4 z-depth-1 no-mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -257,7 +250,7 @@
                 </div>
             </div>
         </div>
-        <div class="col l4 z-depth-1 mar-top">
+        <div class="col s4 l4 z-depth-1 mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -272,7 +265,7 @@
                 </div>
             </div>
         </div>
-        <div class="col l4 z-depth-1 mar-top">
+        <div class="col s4 l4 z-depth-1 mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -287,7 +280,7 @@
                 </div>
             </div>
         </div>
-        <div class="col l4 z-depth-1 mar-top">
+        <div class="col s4 l4 z-depth-1 mar-top">
             <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                     <a class="btn waves-effect blue white-txt z-depth-2">Know more</a>
@@ -309,18 +302,18 @@
 <div class="section no-pad height-l grey">
   <div class="container height-l">
       <div class="row">
-          <div class="col l12 height-15 center flex">
+          <div class="col s12 m12 l12 height-15 center flex">
               <h4 class="dk-grey-txt mar-top">news & events</h4>
           </div>
-          <div class="col l12 height-20 center flex">
+          <div class="col s12 m12 l12 height-20 center flex">
               <span class="dk-grey-txt mar-aut flow-text">
                 Egestas dignissim a enim lorem a mus egestas risus porta? Sed.
                 Scelerisque, in nec velit augue aenean <br>a, vut velit nec! Phasellus aliquam odio.
               </span>
           </div>
-          <div class="col l12 height-65 center flex">
+          <div class="col s12 m12 l12 height-65 center flex">
             <div class="row center flex">
-                <div class="col l4 height-80 white card-news z-depth-3">
+                <div class="col s4 l4 height-80 white card-news z-depth-3">
                         <div class="card-image-news center">
                             <div class="card-bg-4 height-100"></div>
                         </div>
@@ -337,7 +330,7 @@
                             </p>
                         </div>
                 </div>
-                <div class="col l4 height-80 white card-news z-depth-3">
+                <div class="col s4 l4 height-80 white card-news z-depth-3">
                     <div class="card-image-news center">
                         <div class="card-bg-5 height-100"></div>
                     </div>
@@ -354,7 +347,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col l4 height-80 white card-news z-depth-3">
+                <div class="col s4 l4 height-80 white card-news z-depth-3">
                     <div class="card-image-news center">
                         <div class="card-bg-6 height-100"></div>
                     </div>
@@ -381,13 +374,13 @@
 <div class="section no-pad height-m bg-3">
   <div class="container height-m flex flex-jc">
     <div class="row width-100 flex flex-c flex-jc">
-      <div class="col l12 height-20 flex">
+      <div class="col s12 m12 l12 height-20 flex">
           <h1 class="white-txt mar-aut_rl">Luxury Travel</h1>
       </div>
-      <div class="col l12 height-10 flex">
+      <div class="col s12 m12 l12 height-10 flex">
           <h4 class="white-txt mar-aut_rl mar-top-20">Peace of Mind guaranteed!</h4>
       </div>
-      <div class="col l12 height-30 flex">
+      <div class="col s12 m12 l12 height-30 flex">
           <div class="cir-footer br-blue white-txt mar-aut_rl bold hoverable">FINDS TOURS</div>
       </div>
     </div>
@@ -397,15 +390,15 @@
 <!--footer-400px-->
 <footer class="white z-depth-2">
   <div class="container row">
-      <div class="col l3">
+      <div class="col s4 m4 l3">
           <h5 class="left dk-grey-txt">tripfinder lcc</h5>
           <p class="left font-15 dk-grey-txt">1400 Pennsylvania Ave. Washington,<br> DCP: 24/7 customer support: 1-555-555-5555E: info@tripfinder.com</p>
       </div>
-      <div class="col l2">
+      <div class="col s4 m4 l2">
           <h5 class=" dk-grey-txt">support</h5>
           <p class="font-15">Faq<br>Payment options<br>Booking tips<br></p>
       </div>
-      <div class="col l3">
+      <div class="col s4 m4 l3">
           <h5 class="dk-grey-txt">follow us</h5>
           <div class="footer-links">
               <a class="icon-link icon-link_bot round google-plus"><i class="fa fa-google-plus"></i></a>
@@ -415,7 +408,7 @@
               <a class="icon-link icon-link_bot  round facebook"><i class="fa fa-facebook"></i></a>
           </div>
       </div>
-      <div class="col l4 height-300">
+      <div class="col s12 m12 l4 height-300">
           <div class="row height-300">
               <div class="col l12 height-50">
                   <h5 class="center  dk-grey-txt">news letter</h5>
